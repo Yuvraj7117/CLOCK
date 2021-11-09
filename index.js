@@ -25,7 +25,6 @@ setInterval(() => {
      if(hours.innerHTML > 12){
          meridian.innerHTML="PM";
          hours.innerHTML=hours.innerHTML-12;
-         hours.innerHTML = "0"+ hours.innerHTML;
      }
 
      else{
