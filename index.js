@@ -27,10 +27,7 @@ setInterval(() => {
          hours.innerHTML=hours.innerHTML-12;
      }
 
-     else{
-         meridian.innerHTML="AM";
 
-     }
      
 
 },1000);
