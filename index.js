@@ -26,6 +26,11 @@ setInterval(() => {
          meridian.innerHTML="PM";
          hours.innerHTML=hours.innerHTML-12;
      }
+    
+         else{
+         meridian.innerHTML="AM";
+
+     }
 
 
      
